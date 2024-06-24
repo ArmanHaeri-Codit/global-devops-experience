@@ -1,0 +1,8 @@
+# Require review from the funny-frog team for any changes made in the catalog folder.
+/catalog/ @globaldevopsexperience/global-cool-chebyshev
+/frontend/ @globaldevopsexperience/global-cool-chebyshev
+/ordering/ @globaldevopsexperience/global-cool-chebyshev
+
+# Ensure the codeowners file itself can't be changed without formal review
+/.github/CODEOWNERS @globaldevopsexperience/global-cool-chebyshev
+/CODEOWNERS @globaldevopsexperience/global-cool-chebyshev

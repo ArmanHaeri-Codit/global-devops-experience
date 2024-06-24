@@ -1,0 +1,700 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2024-06-11T16:49:12Z",
+        "creators": [
+            "Tool: GitHub.com-Dependency-Graph"
+        ]
+    },
+    "name": "com.github.globaldevopsexperience/event-template-challenge-4",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4"
+    ],
+    "documentNamespace": "https://github.com/globaldevopsexperience/event-template-challenge-4/dependency_graph/sbom-30a73f61308a2d1e",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "name": "com.github.globaldevopsexperience/event-template-challenge-4",
+            "versionInfo": "",
+            "downloadLocation": "git+https://github.com/globaldevopsexperience/event-template-challenge-4",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/globaldevopsexperience/event-template-challenge-4"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-npm-jquery-3.7.1",
+            "name": "npm:jquery",
+            "versionInfo": "3.7.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/jquery@3.7.1",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-npm-jquery-validation-1.20.0",
+            "name": "npm:jquery-validation",
+            "versionInfo": "1.20.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/jquery-validation@1.20.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Swashbuckle.AspNetCore-6.5.0",
+            "name": "nuget:Swashbuckle.AspNetCore",
+            "versionInfo": "6.5.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Swashbuckle.AspNetCore@6.5.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.VisualStudio.Azure.Containers.Tools.Targets-1.14.0",
+            "name": "nuget:Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+            "versionInfo": "1.14.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.VisualStudio.Azure.Containers.Tools.Targets@1.14.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-coverlet.collector-3.1.2",
+            "name": "nuget:coverlet.collector",
+            "versionInfo": "3.1.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/coverlet.collector@3.1.2",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-MSTest.TestAdapter-2.2.10",
+            "name": "nuget:MSTest.TestAdapter",
+            "versionInfo": "2.2.10",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/MSTest.TestAdapter@2.2.10",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-MSTest.TestFramework-2.2.10",
+            "name": "nuget:MSTest.TestFramework",
+            "versionInfo": "2.2.10",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/MSTest.TestFramework@2.2.10",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Selenium.Support-4.10.0",
+            "name": "nuget:Selenium.Support",
+            "versionInfo": "4.10.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Selenium.Support@4.10.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Selenium.WebDriver-4.10.0",
+            "name": "nuget:Selenium.WebDriver",
+            "versionInfo": "4.10.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Selenium.WebDriver@4.10.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Selenium.WebDriver.ChromeDriver-114.0.5735.9000",
+            "name": "nuget:Selenium.WebDriver.ChromeDriver",
+            "versionInfo": "114.0.5735.9000",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Unlicense",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Selenium.WebDriver.ChromeDriver@114.0.5735.9000",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Selenium.WebDriver.MSEdgeDriver-114.0.1823.43",
+            "name": "nuget:Selenium.WebDriver.MSEdgeDriver",
+            "versionInfo": "114.0.1823.43",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Unlicense",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Selenium.WebDriver.MSEdgeDriver@114.0.1823.43",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Selenium.WebDriver.IEDriver-4.10.0",
+            "name": "nuget:Selenium.WebDriver.IEDriver",
+            "versionInfo": "4.10.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Unlicense",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Selenium.WebDriver.IEDriver@4.10.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.NET.Test.Sdk-17.9.0",
+            "name": "nuget:Microsoft.NET.Test.Sdk",
+            "versionInfo": "17.9.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.NET.Test.Sdk@17.9.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Newtonsoft.Json-13.0.1",
+            "name": "nuget:Newtonsoft.Json",
+            "versionInfo": "13.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Newtonsoft.Json@13.0.1",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-AspNetCore.HealthChecks.UI.Client-6.0.5",
+            "name": "nuget:AspNetCore.HealthChecks.UI.Client",
+            "versionInfo": "6.0.5",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/AspNetCore.HealthChecks.UI.Client@6.0.5",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.ApplicationInsights.AspNetCore-2.20.0",
+            "name": "nuget:Microsoft.ApplicationInsights.AspNetCore",
+            "versionInfo": "2.20.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.ApplicationInsights.AspNetCore@2.20.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-AspNetCore.HealthChecks.ApplicationStatus-6.0.0",
+            "name": "nuget:AspNetCore.HealthChecks.ApplicationStatus",
+            "versionInfo": "6.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/AspNetCore.HealthChecks.ApplicationStatus@6.0.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-AspNetCore.HealthChecks.System-6.0.5",
+            "name": "nuget:AspNetCore.HealthChecks.System",
+            "versionInfo": "6.0.5",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/AspNetCore.HealthChecks.System@6.0.5",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Prometheus.Client.AspNetCore-4.8.0",
+            "name": "nuget:Prometheus.Client.AspNetCore",
+            "versionInfo": "4.8.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Prometheus.Client.AspNetCore@4.8.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-prometheus-net.AspNetCore-7.0.0",
+            "name": "nuget:prometheus-net.AspNetCore",
+            "versionInfo": "7.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/prometheus-net.AspNetCore@7.0.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-prometheus-net.AspNetCore.HealthChecks-7.0.0",
+            "name": "nuget:prometheus-net.AspNetCore.HealthChecks",
+            "versionInfo": "7.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/prometheus-net.AspNetCore.HealthChecks@7.0.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-System.Data.SqlClient-4.8.6",
+            "name": "nuget:System.Data.SqlClient",
+            "versionInfo": "4.8.6",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/System.Data.SqlClient@4.8.6",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Swashbuckle.AspNetCore-6.3.1",
+            "name": "nuget:Swashbuckle.AspNetCore",
+            "versionInfo": "6.3.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Swashbuckle.AspNetCore@6.3.1",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.VisualStudio.Azure.Containers.Tools.Targets-1.15.1",
+            "name": "nuget:Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+            "versionInfo": "1.15.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.VisualStudio.Azure.Containers.Tools.Targets@1.15.1",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-coverlet.collector-6.0.0",
+            "name": "nuget:coverlet.collector",
+            "versionInfo": "6.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/coverlet.collector@6.0.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-MSTest.TestAdapter-3.0.4",
+            "name": "nuget:MSTest.TestAdapter",
+            "versionInfo": "3.0.4",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/MSTest.TestAdapter@3.0.4",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-MSTest.TestFramework-3.0.4",
+            "name": "nuget:MSTest.TestFramework",
+            "versionInfo": "3.0.4",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/MSTest.TestFramework@3.0.4",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.NET.Test.Sdk-17.6.2",
+            "name": "nuget:Microsoft.NET.Test.Sdk",
+            "versionInfo": "17.6.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.NET.Test.Sdk@17.6.2",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-LiquidTestReports.Markdown-1.0.9",
+            "name": "nuget:LiquidTestReports.Markdown",
+            "versionInfo": "1.0.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/LiquidTestReports.Markdown@1.0.9",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.Playwright-1.34.0",
+            "name": "nuget:Microsoft.Playwright",
+            "versionInfo": "1.34.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.Playwright@1.34.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-nuget-Microsoft.Playwright.MSTest-1.34.0",
+            "name": "nuget:Microsoft.Playwright.MSTest",
+            "versionInfo": "1.34.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:nuget/Microsoft.Playwright.MSTest@1.34.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-actions-azure-login-2.0.0",
+            "name": "actions:azure/login",
+            "versionInfo": "2.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:githubactions/azure/login@2.0.0",
+                    "referenceType": "purl"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-npm-jquery-3.7.1"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-npm-jquery-validation-1.20.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Swashbuckle.AspNetCore-6.5.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.VisualStudio.Azure.Containers.Tools.Targets-1.14.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-coverlet.collector-3.1.2"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-MSTest.TestAdapter-2.2.10"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-MSTest.TestFramework-2.2.10"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Selenium.Support-4.10.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Selenium.WebDriver-4.10.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Selenium.WebDriver.ChromeDriver-114.0.5735.9000"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Selenium.WebDriver.MSEdgeDriver-114.0.1823.43"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Selenium.WebDriver.IEDriver-4.10.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.NET.Test.Sdk-17.9.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Newtonsoft.Json-13.0.1"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-AspNetCore.HealthChecks.UI.Client-6.0.5"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.ApplicationInsights.AspNetCore-2.20.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-AspNetCore.HealthChecks.ApplicationStatus-6.0.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-AspNetCore.HealthChecks.System-6.0.5"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Prometheus.Client.AspNetCore-4.8.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-prometheus-net.AspNetCore-7.0.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-prometheus-net.AspNetCore.HealthChecks-7.0.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-System.Data.SqlClient-4.8.6"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Swashbuckle.AspNetCore-6.3.1"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.VisualStudio.Azure.Containers.Tools.Targets-1.15.1"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-coverlet.collector-6.0.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-MSTest.TestAdapter-3.0.4"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-MSTest.TestFramework-3.0.4"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.NET.Test.Sdk-17.6.2"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-LiquidTestReports.Markdown-1.0.9"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Playwright-1.34.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Playwright.MSTest-1.34.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.globaldevopsexperience-event-template-challenge-4",
+            "relatedSpdxElement": "SPDXRef-actions-azure-login-2.0.0"
+        }
+    ]
+}
